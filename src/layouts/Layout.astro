@@ -1,33 +1,48 @@
 ---
- import Header from "../components/Header.astro"
- import Footer from "../components/Footer.astro"
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/mav-favicon.svg" />
-		<title>
-			MavFest Uney - 9na Edición
-		</title>
-		<meta name="description" content="El MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY. Este evento celebra la creatividad y el talento audiovisual de la comunidad universitaria, premiando la excelencia y los valores éticos en diversas categorías." />
-	</head>
-	<body>
-		<Header />
-		<slot />
-		<Footer />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/mav-favicon.svg" />
+    <title>MavFest Uney - 9na Edición</title>
+    <meta
+      name="description"
+      content="El MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY. Este evento celebra la creatividad y el talento audiovisual de la comunidad universitaria, premiando la excelencia y los valores éticos en diversas categorías."
+    />
+
+    <meta
+      property="og:title"
+      content="MAV Fest 2025 | Festival de Cortometrajes"
+    />
+    <meta
+      property="og:description"
+      content="MAV Fest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY que celebra la creatividad y el talento de la comunidad universitaria."
+    />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta property="og:url" content="https://mavfest-uney.netlify.app" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
 </html>
 
 <style is:global>
-	html,
-	body {
-		margin: 0 auto;
-		max-width: 1600px;
-		width: 100%;
-		height: 100%;
-		
-	}
+  html,
+  body {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+  }
 </style>
