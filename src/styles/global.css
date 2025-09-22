@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-mav-main:  #f2f2f2;
+  --color-mav-black: #1e1e1e;
+  --color-mav-gray: #4f4f4f;
+  --color-mav-lightgray: #e7e7e7;
+  --color-mav-orange: #ed470c;
+  --color-mav-lightOrange: #fdaf74;
+  --color-mav-darkOrange: #9a2912;
+}
+
+body {
+  font-family: 'Inter Variable', sans-serif;
+}
