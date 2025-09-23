@@ -30,6 +30,10 @@ import Footer from "../components/Footer.astro";
     <meta property="og:type" content="website" />
   </head>
   <body>
+    <!-- overlay 
+     
+    <div id="overlay"></div>
+    <div id="overlay2"></div>-->
     <Header />
     <main>
       <slot />
@@ -45,10 +49,48 @@ import Footer from "../components/Footer.astro";
     max-width: 1600px;
     width: 100%;
     height: 100%;
-    color: var(--color-mav-main);
+    background-color: var(--color-mav-main);
+
   }
 
   main {
     min-height: 100vh;
   }
+/*
+  #overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-image: url(images/noise_texture.webp);
+    background-repeat: repeat;
+    background-position: center;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    user-select: none;
+    z-index: -1;
+    filter: invert(100%) blur(0.5px);
+    opacity: 0.05;  
+  }
+
+  #overlay2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-image: url(images/line-texture.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    user-select: none;
+    z-index: -1;
+    filter: blur(0.5px);
+    
+  }*/
+
+
 </style>
