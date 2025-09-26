@@ -1,0 +1,102 @@
+{
+"generales": [
+    
+    {
+        "pregunta": "¿Quiénes pueden participar?",
+        "respuesta": "Estudiantes regulares, de nivel introductorio y egresados de la UNEY."
+    },
+    {
+        "pregunta": "¿Puedo participar si soy egresado/a?",
+        "respuesta": "Sí, pero no en las categorías principales de cortometraje; sí en técnicas, artísticas o mención honorífica."
+    },
+    {
+        "pregunta": "¿Podemos mezclar estudiantes de distintas carreras o trayectos?",
+        "respuesta": "Sí, pueden unirse sin importar sede, carrera o año."
+    },
+    {
+        "pregunta": "¿Puede participar alguien que no sea de la UNEY?",
+        "respuesta": "Sí, pueden trabajar en el corto, así no sea de la UNEY. Y si hay más de un egresado en la obra, ésta será considerada de egresado. Si activamente hay más egresados no será clasificado como obra de estudiantes."
+    }
+],
+"formatos": [
+ 
+    {
+        "pregunta": "¿Cuál es la fecha límite de entrega?",
+        "respuesta": "31 de Octubre de 2024, hasta las 11:59 PM."
+    },
+    {
+        "pregunta": "¿Cómo nombrar archivos?",
+        "respuesta": "[Título]_[Productora]. Ej: Corazón Silencioso_Chistrís Producciones. Tiene que ser enviado al correo mav.fest.uney@gmail.com, con permisos de solo lectura, y una vez subidos los archivos no se podran modificar"
+    },
+    {
+        "pregunta": "¿Qué formatos de video aceptan?",
+        "respuesta": "AVI, MP4, MPG, WMV, MKV (máx. 1 GB por archivo)."
+    },
+    {
+        "pregunta": "¿Debo incluir subtítulos?",
+        "respuesta": "Sí, si el audio es poco claro o está en otro idioma."
+    },
+    {
+        "pregunta": "¿Dónde entregar los carteles impresos?",
+        "respuesta": "En las sedes indicadas: SINSE Guama, Rectorado CIEPE, Biblioteca Yaritagua."
+    }
+],
+"categorias": [
+    {
+        "pregunta": "¿Cuántas categorías hay?",
+        "respuesta": "Cinco: Mejor Cortometraje Estudiantil, Mejor Cortometraje Egresado, Mejor Técnica, Mejor Arte y Mención Honorífica."
+    },
+    {
+        "pregunta": "¿Puedo participar en varias categorías?",
+        "respuesta": "Sí, pero cada obra solo en una categoría."
+    },
+    {
+        "pregunta": "¿Qué duración debe tener mi cortometraje?",
+        "respuesta": "Entre 1 y 15 minutos, incluyendo créditos."
+    },
+    {
+        "pregunta": "¿Puedo participar con un documental o videoclip?",
+        "respuesta": "Sí, siempre que cumpla con la duración y demás requisitos."
+    },
+    {
+        "pregunta": "¿Qué criterios se evalúan para ganar?",
+        "respuesta": "Guion, técnica, creatividad, impacto y lenguaje audiovisual."
+    },
+    {
+        "pregunta": "¿Cómo evalúa el jurado?",
+        "respuesta": "Según guion, técnica, creatividad, impacto y lenguaje audiovisual."
+    },
+    {
+        "pregunta": "¿Qué recibe cada ganador?",
+        "respuesta": "Estatuilla, certificado colectivo y certificados digitales para el equipo."
+    },
+    {
+        "pregunta": "¿Puedo ganar en varias categorías?",
+        "respuesta": "Sí, pero se otorga el puntaje mayor, no acumulable. (En el caso de estudiantes de la Medios Audiovisuales)."
+    }
+],
+"festival": [
+ 
+    {
+
+        "pregunta": "¿Qué pasa con las obras después?",
+        "respuesta": "La Selección Oficial se publicará en el canal de YouTube del MAV Fest."
+    },
+    {
+        "pregunta": "¿Dónde ver las obras ganadoras?",
+        "respuesta": "En la gala de premiación y luego en el canal oficial de YouTube."
+    },
+    {
+        "pregunta": "¿Qué pasa si hay plagio o material sin permiso?",
+        "respuesta": "Descalificación inmediata de la obra y productora."
+    },
+    {
+        "pregunta": "¿Qué pasa si hay plagio o material sin permiso?",
+        "respuesta": "Descalificación inmediata de la obra y productora."
+    },
+    {
+        "pregunta": "¿Puedo mostrar mi corto antes del festival?",
+        "respuesta": "No, exhibirlo sin autorización implica descalificación."
+    }
+]
+}

@@ -1,8 +1,9 @@
 ---
 // Supports weights 100-900
-import '@fontsource-variable/inter/wght-italic.css';
+import '@fontsource-variable/inter';
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import GrainTexture from '@/components/GrainTexture.astro';
 ---
 
 <!doctype html>
@@ -12,28 +13,29 @@ import Footer from "../components/Footer.astro";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/mav-favicon.svg" />
     <title>MavFest UNEY</title>
-    <meta
-      name="description"
-      content="El MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY. Este evento celebra la creatividad y el talento audiovisual de la comunidad universitaria, premiando la excelencia y los valores éticos en diversas categorías."
-    />
+    <!-- HTML Meta Tags -->
+<title>MavFest 2025 | Festival de Cortometrajes</title>
+<meta name="description" content="MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY que celebra la creatividad y el talento de la comunidad universitaria.">
 
-    <meta
-      property="og:title" content="MAV Fest 2025 | Festival de Cortometrajes"
-    />
-    <meta
-      property="og:description" content="MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY que celebra la creatividad y el talento de la comunidad universitaria."
-    />
-    <meta
-      property="og:image" content="" 
-    /> <!--Imagen de comparti -->
-    <meta property="og:url" content="https://mavfest-uney.netlify.app" />
-    <meta property="og:type" content="website" />
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://mavfest-uney.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MAV Fest 2025 | Festival de Cortometrajes">
+<meta property="og:description" content="MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY que celebra la creatividad y el talento de la comunidad universitaria.">
+<meta property="og:image" content="https://mavfest-uney.netlify.appundefined">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="Únete a la celebración de la creatividad y el talento audiovisual">
+<meta property="twitter:url" content="https://mavfest-uney.netlify.app">
+<meta name="twitter:title" content="MavFest 2025 | Festival de Cortometrajes">
+<meta name="twitter:description" content="MavFest 2025 es la 9ª edición del Festival de Cortometrajes de la UNEY que celebra la creatividad y el talento de la comunidad universitaria.">
+<meta name="twitter:image" content="https://drive.google.com/file/d/1cnI_WIrRnBqbjDJ08HJFRtcsA-ZEx8Ga/view">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
   </head>
   <body>
-    <!-- overlay 
-     
-    <div id="overlay"></div>
-    <div id="overlay2"></div>-->
+    <GrainTexture />
     <Header />
     <main>
       <slot />
@@ -50,6 +52,7 @@ import Footer from "../components/Footer.astro";
     width: 100%;
     height: 100vh;
     background-color: var(--color-mav-main);
+    
 
   }
 
