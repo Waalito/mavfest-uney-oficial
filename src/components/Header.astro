@@ -12,3 +12,26 @@ import LogoMavfest from '../assets/svg/LogoMavfest.svg';
        <LogoMavfest />
     </a>
 </header>
+
+<style>
+    header {
+
+        border-bottom: 1px solid transparent;
+        background: transparent;
+        animation: header-blur-scroll 0.3s linear both;
+        animation-timeline: scroll();
+        animation-range: 0 250px;
+    }
+
+    @keyframes header-blur-scroll {
+  0% {
+    backdrop-filter: blur(0px);
+    background: transparent;
+  }
+  100% {
+    backdrop-filter: blur(10px);
+    background-color: rgba(242, 242, 242, 0.4);
+    padding-bottom: 6px;
+  }
+}
+</style>

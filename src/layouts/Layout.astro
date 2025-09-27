@@ -4,6 +4,8 @@ import '@fontsource-variable/inter';
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import GrainTexture from '@/components/GrainTexture.astro';
+import MetalTexture from '@/components/MetalTexture.astro';
+import GrungeTexture from '@/components/GrungeTexture.astro';
 ---
 
 <!doctype html>
@@ -34,7 +36,11 @@ import GrainTexture from '@/components/GrainTexture.astro';
 
   </head>
   <body>
+    <!-- Textures -->
     <GrainTexture />
+    <GrungeTexture />
+    <MetalTexture />
+    <!-- Textures -->
     <Header />
     <main>
       <slot />
