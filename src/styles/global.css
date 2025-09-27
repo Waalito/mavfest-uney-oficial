@@ -10,6 +10,8 @@
   --color-mav-orange: #ed470c;
   --color-mav-lightOrange: #fdaf74;
   --color-mav-darkOrange: #9a2912;
+
+  --breakpoint-sx: 30rem;
 }
 
 body {

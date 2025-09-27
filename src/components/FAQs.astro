@@ -8,7 +8,7 @@ const festival = faqs.festival;
 ---
 
 <section class="w-full  mt-32 flex flex-col items-center justify-center gap-1 mb-32">
-  <h2 class="text-4xl uppercase font-black leading-tight text-mav-gray">
+  <h2 class=" max-sm:text-center text-4xl uppercase font-black leading-tight text-mav-gray">
     Preguntas Frecuentes
   </h2>
   <h5 class="text-sm italic uppercase mb-4 font-black text-mav-gray"> 
@@ -17,7 +17,7 @@ const festival = faqs.festival;
   
   {
     generales.map(({ pregunta, respuesta }) => (
-        <ul class="sm:w-3xl w-lg justify-center items-center" >
+        <ul class=" flex justify-center items-center" >
       <li class="mb-6 ">
 
         <details
@@ -57,17 +57,17 @@ const festival = faqs.festival;
         </h5>
   {
     formatos.map(({ pregunta, respuesta, }) => (
-        
-        <ul class="sm:w-3xl w-lg">
+
+        <ul class="flex flex-col justify-center items-center ">
       <li class="mb-6 ">
 
         <details
-          class=" sm:w-3xl w-lg group rounded-xl border border-transparent bg-mav-lightgray/20 transition-all duration-300 hover:border-mav-gray/50 hover:shadow-2xs uppercase"
+          class="w-lg group rounded-xl border border-transparent bg-mav-lightgray/20 transition-all duration-300 hover:border-mav-gray/50 hover:shadow-2xs uppercase"
           
         >
      
           <summary
-            class="font-black -tracking-wide focus-visible:ring-[#00d7c9]-400 duration-600 flex cursor-pointer select-none items-center gap-3 px-6 py-4 text-sm  text-mav-black/20 outline-none transition-all focus-visible:ring-2 group-open:text-mav-black/70 lg:text-lg"
+            class=" font-black -tracking-wide focus-visible:ring-[#00d7c9]-400 duration-600 flex cursor-pointer select-none items-center gap-3 px-6 py-4 text-sm  text-mav-black/20 outline-none transition-all focus-visible:ring-2 group-open:text-mav-black/70 lg:text-lg"
           >
             <svg
               class="mr-1 inline-block h-7 w-7 flex-shrink-0 text-mav-black/20 transition-transform duration-300 group-open:rotate-180 lg:h-5 lg:w-5"
