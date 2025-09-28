@@ -1,14 +1,22 @@
 ---
 import Github from '../assets/svg/github.svg';
 import Instagram from '../assets/svg/instagram.svg';
+import Youtube from '../assets/svg/youtube.svg';
 ---
 
-<footer class="w-full h-2 p-6 mt-3.5 flex items-center justify-between gap-3">
+<footer class="w-full h-2 p-16 mt-3.5 flex flex-col items-center justify-between gap-2 lg:flex-row">
     <div>
-        <h6 class="text-xs uppercase font-bold text-mav-gray/20">Mavfest 2025 Todos los derechos reservados</h6>
+        <h6 class="text-xs font-bold text-mav-gray/20">Mavfest 2025 Todos los derechos reservados</h6>
     </div>
 
-    <div class="sociales flex items-center gap-1">
+    <div class="sociales flex items-center gap-1 py-7">
+        <a href="https://www.youtube.com/@mavfestuney946" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class=" text-mav-gray hover:text-mav-black transition-colors duration-300 ease-in-out ">
+            <Youtube />
+        </a>
+
         <a href="https://www.instagram.com/mav.fest.uney" 
         target="_blank"
         rel="noopener noreferrer"
@@ -21,6 +29,8 @@ import Instagram from '../assets/svg/instagram.svg';
         class=" text-mav-gray hover:text-mav-black transition-colors duration-300 ease-in-out ">
             <Github />
         </a>
+
+        
         
 
     </div>
