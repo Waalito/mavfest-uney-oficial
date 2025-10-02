@@ -1,0 +1,33 @@
+
+<div class=" texture fixed w-[200%] h-[200vh] inset-0 z-50"></div>
+<div class="fixed w-[200%] h-[200vh] inset-0 bg-[#2f322b]/50" ></div>
+
+<style>
+    .texture {
+    background-image: url('/images404/shadowTexture.webp');
+    background-repeat: repeat; /* Valor por defecto (para pantallas grandes) */
+    background-position: left;
+    background-size: contain; /* Valor por defecto */
+    mix-blend-mode: overlay;
+    user-select: none;
+    pointer-events: none;
+    overflow-x: hidden;
+}
+
+/* Media Query para pantallas con un ancho MÁXIMO de 1023px.
+   Esto cubre móviles, tabletas y monitores pequeños, excluyendo
+   pantallas de 1024px o más grandes.
+*/
+@media (max-width: 1023px) {
+    .texture {
+        /* 1. Evita que la imagen se repita */
+        background-repeat: no-repeat;
+        
+        /* 2. Asegura que la imagen cubra todo el contenedor (sin importar el tamaño) */
+        background-size: cover;
+        
+        /* 3. Centra la imagen para una mejor visualización */
+        background-position: center; 
+    }
+}
+</style>

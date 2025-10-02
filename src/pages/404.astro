@@ -1,0 +1,97 @@
+---
+// Supports weights 100-900
+import '@fontsource-variable/inter';
+import "@/styles/global.css";
+import Footer from "../components/Footer.astro";
+import ShadowTexture from '@/components/ShadowTexture.astro';
+import MetalTexture from '@/components/MetalTexture.astro';
+import GrungeTexture from '@/components/GrungeTexture.astro';
+import Instituciones from '@/components/Instituciones.astro';
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/mav-favicon.svg" />
+    <!-- HTML Meta Tags -->
+<title>MavFest 2025 | Pagina no Encontrada</title>
+
+  </head>
+  <body>
+    <!-- Textures -->
+     
+    <ShadowTexture />
+    <GrungeTexture />
+    <MetalTexture />
+    <!-- Textures -->
+    <main>
+
+        <Instituciones/>
+
+    <section class="w-full flex justify-center items-center">
+        <figure class="w-full absolute top-20 2xl:top-0 left-1/2 transform -translate-x-1/2 h-full flex items-center justify-center">
+        <img src="images404/error404.webp" alt="Error 404" class="w-auto">
+    </figure>
+
+    <figure  id="camara" class="camaraleft hidden w-full absolute  top-[220px] left-[750px] 2x:left-1/2 h-full xl:flex items-center justify-center">
+        <img src="images404/camara.webp" alt="Error Camara" class=" w-[600px] 2xl:w-[700px]" >
+    </figure>
+
+    <figure class=" hidden  w-full absolute top-[320px] 2xl:top-[300px] right-1/2 h-full xl:flex items-center justify-center">
+        <img src="images404/camara.webp" alt="Error Camara" class=" transform rotate-y-180 w-[400px] 2xl:w-[600px]">
+    </figure>
+
+
+    <div class=" w-full h-screen gap-4 flex flex-col items-center justify-center z-10 mt-16 2xl:mt-0">
+
+    
+    <div class=" flex items-center justify-center flex-col gap-y-4 h-14 top-28  md:max-top-46  lg:top-52 2xl:top-60 relative">
+        <a 
+       class="text-4xl uppercase text-mav-black font-black -tracking-wider text-center animate-fade-in-down animation-delay-900 hover:text-mav-gray transition-colors duration-300 ease-in-out"
+        rel="noopener noreferrer"
+        href="https://mavfest-uney.netlify.app">
+        
+            Pagina Principal
+        </a>
+         <a 
+        class="flex items-center justify-center italic h-full text-mav-black font-bold text-sm hover:text-mav-black transition-colors duration-300 ease-in-out"
+        href="https://www.instagram.com/mav.fest.uney"
+        target="_blank"
+        rel="noopener noreferrer">
+            @mav.fest.uney
+            </a>
+        </div>
+       </div> 
+
+    </section>
+
+      
+    </main>
+  <Footer />
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-mav-main);
+    overflow: hidden;
+    
+
+  }
+
+  main {
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+
+</style>
+
