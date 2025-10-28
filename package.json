@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource/the-nautigal": "^5.2.7",
     "@midudev/tailwind-animations": "^0.2.0",
     "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.13.7",

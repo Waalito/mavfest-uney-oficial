@@ -3,7 +3,7 @@
 @plugin "@midudev/tailwind-animations";
 
 @theme {
-  --color-mav-main:  #f2f2f2;
+  --color-mav-main:  #efefe5;
   --color-mav-black: #1e1e1e;
   --color-mav-gray: #4f4f4f;
   --color-mav-lightgray: #cccccc;
@@ -12,9 +12,12 @@
   --color-mav-darkOrange: #9a2912;
 
   --breakpoint-sx: 30rem;
+
+  --text-secundary: 'The Nautigal', cursive;
 }
 
 body {
   font-family: 'Inter Variable', sans-serif;
   font-style: normal;
 }
+
