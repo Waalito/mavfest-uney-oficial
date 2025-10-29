@@ -1,0 +1,165 @@
+---
+import Line from '../assets/svg/line.svg';
+
+const datosSedes = {
+  "GUAMA": {
+    "Place": "GUAMA: Aula 7 Módulo stac",
+    "Date": "Mar. 28 OCT. 8:00am"
+  },
+  "YARITAGUA": {
+    "Place": "Yaritagua: Aula Multimedia Biblioteca O.M.",
+    "Date": "Mié. 29 OCT. 8:00am"
+  },
+  "CEHOTUR": {
+    "Place": "Restaurant Quinta Colibrí San Felipe",
+    "Date": "Vie. 31 OCT. 8:00am"
+  }
+};
+
+import data from 'PreMavfestData.json';
+
+const GUAMA = data.GUAMA;
+const YARITAGUA = data.YARITAGUA;
+const CEHOTUR = data.CEHOTUR;
+---
+
+<section class="w-full flex flex-col justify-center items-center p-7" >
+
+    <div class=" w-full flex flex-col lg:flex-row justify-center items-center  gap-10">
+        <div class="text-center">
+
+            <h1 class="text-5xl font-black text-mav-orange -tracking-wider">+32 cortos</h1>
+            <h2 class="text-xl font-black text-mav-black text-center -tracking-wider"> 3 días. 1 decisión.</h2>
+            <div class="relative">
+              <span class="absolute left-1/2 transform -translate-x-1/2 scale-150 -top-1 lg:-top-1 text-mav-orange/80">
+                <Line />
+
+              </span>
+            
+            <h3 class="text-md font-black text-mav-black text-center -tracking-wider leading-none my-5 -skew-5">Ven, vibra y vota <br> por tu corto favorito
+            </h3>
+
+            </div>
+
+            <div class="flex flex-col text-center lg:text-left mt-10">
+                
+                <div class="guama flex-col  pb-2 uppercase">
+                    <a
+                    href="https://maps.app.goo.gl/kd73Jgff9hW5AQpq9"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                     class=" text-mav-black font-bold hover:text-mav-gray transition-colors duration-300 ease-in-out">
+                     {datosSedes.GUAMA.Place} <a/>
+                    <p class=" text-mav-orange italic font-bold -tracking-wider">{datosSedes.GUAMA.Date} </p>
+
+                </div>
+
+                <div class=" yaritagua flex-col pb-2  uppercase">
+                    <a
+                    href="https://maps.app.goo.gl/K44yeTuaFdYNuv4u8"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                     class=" text-mav-black font-bold hover:text-mav-gray transition-colors duration-300 ease-in-out">
+                     {datosSedes.YARITAGUA.Place} <a/>
+                    <p class=" text-mav-orange italic font-bold -tracking-wider">{datosSedes.YARITAGUA.Date} </p>
+                </div>
+
+                <div class=" cehotur flex-col pb-2  uppercase">
+                    <a
+                    href="https://maps.app.goo.gl/n6tTi2k2QZVCmPm7A"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                     class=" text-mav-black font-bold hover:text-mav-gray transition-colors duration-300 ease-in-out">
+                     {datosSedes.CEHOTUR.Place} <a/>
+                    <p class=" text-mav-orange italic font-bold -tracking-wider">{datosSedes.CEHOTUR.Date} </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <aside class=" h-90 overflow-auto p-7">
+    {GUAMA.map((x) => (
+      <article id="list-view" class=" w-full flex flex-col mb-2 " >
+        <header class="w-full flex flex-row justify-between items-center mb-2 ">
+          <h2 class=" text-6xl font-bold -tracking-widest text-mav-darkOrange">{x.Titulo}</h2>
+          <p class=" text-mav-gray/40 font-bold px-4">{x.Duracion}</p>
+        </header>
+        <h4 class="text-lg font-medium -tracking-widest text-mav-black">{x.Productora} // Guama</h4>
+
+        <footer>
+          <p class="text-sm font-bold -tracking-wider text-mav-gray">{x.Genero}</p>
+        </footer>
+      </article>
+    ))}
+
+    {YARITAGUA.map((y) => (
+      <article id="list-view" class="w-full flex flex-col mb-2 " >
+        <header class="w-full flex flex-row justify-between items-center mb-2 ">
+          <h2 class=" text-6xl font-bold -tracking-widest text-mav-darkOrange">{y.Titulo}</h2>
+          <p class=" text-mav-gray/40 font-bold px-4">{y.Duracion}</p>
+        </header>
+        <h4 class="text-lg font-medium -tracking-widest text-mav-black">{y.Productora} // Yaritagua</h4>
+
+        <footer>
+          <p class="text-sm font-bold -tracking-wider text-mav-gray">{y.Genero}</p>
+        </footer>
+      </article>
+    ))}
+
+    {CEHOTUR.map((c) => (
+      <article id="list-view" class="w-full flex flex-col mb-2 " >
+        <header class="w-full flex flex-row justify-between items-center mb-2 ">
+          <h2 class=" text-6xl font-bold -tracking-widest text-mav-darkOrange">{c.Titulo}</h2>
+          <p class=" text-mav-gray/40 font-bold px-4">{c.Duracion}</p>
+        </header>
+        <h4 class="text-lg font-medium -tracking-widest text-mav-black">{c.Productora} // CEHOTUR</h4>
+
+        <footer>
+          <p class="text-sm font-bold -tracking-wider text-mav-gray">{c.Genero}</p>
+        </footer>
+      </article>
+    ))}
+        </aside>
+
+
+    </div>
+</section>
+
+
+
+<style> 
+
+  aside {
+    max-height: 500px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Color del thumb (naranja) y del track (gris claro) */
+    -webkit-scrollbar-thumb {
+      background-color: transparent; /* Color del thumb (naranja) */
+    };
+    mask-image: linear-gradient(to bottom, transparent, black 30px, black calc(100% - 40px), transparent);
+  }
+
+  @keyframes animate-in-and-out {
+	entry 0%  {
+		opacity: 0; transform: translateY(100%);
+	}
+	entry 100%  {
+		opacity: 1; transform: translateY(0);
+	}
+
+	exit 0% {
+		opacity: 1; transform: translateY(0);
+	}
+	exit 100% {
+		opacity: 0; transform: translateY(-100%);
+	}
+}
+
+#list-view  {
+	animation: linear animate-in-and-out;
+	animation-timeline: view();
+}
+</style>

@@ -3,16 +3,23 @@
 import Layout from '@/layouts/Layout.astro';
 import "@/styles/global.css";
 import Hero from '@/components/Hero.astro';
-import FAQs from '@/components/FAQs.astro';
+import PreCTA from '@/components/PreCTA.astro';
+import PreMavCTA from '@/components/PreMavCTA.astro';
+import PreMavFest from '@/components/PreMavFest.astro';
 import Countdown from '@/components/Countdown.astro';
 import Instituciones from '@/components/Instituciones.astro';
-import Colaboradores from '@/components/Colaboradores.astro';
+import Agradecimiento from '@/components/Agradecimiento.astro';
+import Credits from '@/components/Credits.astro';
 ---
 
 <Layout title="MavFest 2025 | Festival de Cortometrajes">
 	<Hero />
-	<FAQs />
+	<PreCTA />
 	<Countdown />
+	<PreMavCTA />
+	<PreMavFest />
 	<Instituciones />
+	<Agradecimiento />
+	<Credits />
 
 </Layout>
