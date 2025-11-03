@@ -1,5 +1,5 @@
 {
-  "GUAMA": [
+  "OFICIAL": [
     {
       "Titulo": "Alguien normal",
       "Productora": "Redgabi Films",
@@ -7,11 +7,72 @@
       "Duracion": "5:36"
     },
     {
+      "Titulo": "Diario de un soldado",
+      "Productora": "Sushi Chollo",
+      "Genero": "Documental",
+      "Duracion": "4:17"
+    },
+     {
+      "Titulo": "El alma en un violín",
+      "Productora": "Chivo En Lancha Films",
+      "Genero": "Documental",
+      "Duracion": "3:19"
+    },
+    {
+      "Titulo": "Letras de un alma en soledad",
+      "Productora": "Cine Mosaico Study",
+      "Genero": "Documental",
+      "Duracion": "4:06"
+    },
+    {
+      "Titulo": "Mas allá de la díálisis",
+      "Productora": "que mas Films, Cinesoscuro",
+      "Genero": "Documental",
+      "Duracion": "6:34"
+    },
+     {
+      "Titulo": "Maullidos de esperanza",
+      "Productora": "Atajik Films Y Lampoos Production",
+      "Genero": "Documental",
+      "Duracion": "3:00"
+    },
+     {
+      "Titulo": "San Juan de Veroes",
+      "Productora": "Nany films",
+      "Genero": "Documental",
+      "Duracion": "2:74"
+    },
+    {
+      "Titulo": "Valores de convivencia",
+      "Productora": "Pabellon Films",
+      "Genero": "Ficción",
+      "Duracion": "4:34"
+    },
+     {
+      "Titulo": "Yaracuy al pilón",
+      "Productora": "Pipirisnais Production",
+      "Genero": "Documental",
+      "Duracion": "5:05"
+    },
+    {
+      "Titulo": "Yaritagua nuestra",
+      "Productora": "5G Films",
+      "Genero": "Documental",
+      "Duracion": "3:03"
+    },
+    {
+      "Titulo": "Batman. Una hermosa mentira",
+      "Productora": "Sushi Criollo",
+      "Genero": "Ficción",
+      "Duracion": "3:53"
+    },
+     {
       "Titulo": "Consejero espiritual",
       "Productora": "Aquelarre producciones",
       "Genero": "Ficción",
       "Duracion": "6:30"
     },
+   
     {
       "Titulo": "Culpa",
       "Productora": "Rodrigo Balza - Ymir Ramos",
@@ -25,17 +86,12 @@
       "Duracion": "3:13"
     },
     {
-      "Titulo": "Diario de un soldado",
-      "Productora": "Sushi Chollo",
-      "Genero": "Documental",
-      "Duracion": "4:17"
+      "Titulo": "El encuentro final",
+      "Productora": "Cinevision Studio",
+      "Genero": "Ficción",
+      "Duracion": "1:31"
     },
-    {
-      "Titulo": "El alma en un violín",
-      "Productora": "Chivo En Lancha Films",
-      "Genero": "Documental",
-      "Duracion": "3:19"
-    },
+
     {
       "Titulo": "El Misterio Del Vecino",
       "Productora": "Nova Producions",
@@ -48,12 +104,14 @@
       "Genero": "Ficción",
       "Duracion": "7:34"
     },
+
     {
-      "Titulo": "El Tren",
-      "Productora": "Redgabi Films",
-      "Genero": "Musical/Experimental",
-      "Duracion": "2:15"
+      "Titulo": "El último trazo",
+      "Productora": "Nadie TV",
+      "Genero": "Ficción",
+      "Duracion": "2:59"
     },
+
     {
       "Titulo": "Eres un sol",
       "Productora": "Juan Carlos TV",
@@ -71,6 +129,12 @@
       "Productora": "Complot Studio",
       "Genero": "Ficción",
       "Duracion": "3:53"
+    },
+    {
+      "Titulo": "La danza de la chancla",
+      "Productora": "Complot Studio",
+      "Genero": "Ficción",
+      "Duracion": "2:43"
     },
     {
       "Titulo": "La despedida",
@@ -85,18 +149,6 @@
       "Duracion": "1:29"
     },
     {
-      "Titulo": "Mas allá de la díálisis",
-      "Productora": "que mas Films, Cinesoscuro",
-      "Genero": "Documental",
-      "Duracion": "6:34"
-    },
-    {
-      "Titulo": "Maullidos de esperanza",
-      "Productora": "Atajik Films Y Lampoos Production",
-      "Genero": "Documental",
-      "Duracion": "3:00"
-    },
-    {
       "Titulo": "Muo Bananiao",
       "Productora": "5G FILMS",
       "Genero": "Ficción",
@@ -108,13 +160,7 @@
       "Genero": "Ficción",
       "Duracion": "5:17"
     },
-    {
-      "Titulo": "San Juan de Veroes",
-      "Productora": "Nany films",
-      "Genero": "Documental",
-      "Duracion": "2:74"
-    },
-     {
+      {
       "Titulo": "Siguiente usuario",
       "Productora": "Her Films",
       "Genero": "Ficción",
@@ -126,270 +172,30 @@
       "Genero": "Ficción",
       "Duracion": "4:21"
     },
-    {
-      "Titulo": "Valores de convivencia",
-      "Productora": "Pabellon Films",
+     {
+      "Titulo": "Visible, vulnerable, viva",
+      "Productora": "Mephi Production",
       "Genero": "Ficción",
-      "Duracion": "4:34"
-    }
-  ],
-  "YARITAGUA": [
-
-    {
-      "Titulo": "Alguien normal",
-      "Productora": "Redgabi Films",
-      "Genero": "Documental",
-      "Duracion": "5:36"
+      "Duracion": "4:08"
     },
     {
-      "Titulo": "Batman. una hermosa mentira",
-      "Productora": "Sushi Criollo",
+      "Titulo": "Witchcraft",
+      "Productora": "CH Productions",
       "Genero": "Ficción",
-      "Duracion": "3:53"
+      "Duracion": "6:45"
     },
-    {
-      "Titulo": "Consejero espiritual",
-      "Productora": "Aquelarre producciones",
-      "Genero": "Ficción",
-      "Duracion": "6:30"
-    },
-    {
-      "Titulo": "Culpa",
-      "Productora": "Rodrigo Balza-Ymir Ramos",
-      "Genero": "Ficción",
-      "Duracion": "3:52"
-    },
-    {
-      "Titulo": "Desde todas partes",
-      "Productora": "Producciónes paralelas",
-      "Genero": "Ficción",
-      "Duracion": "3:13"
-    },
-    {
-      "Titulo": "Diario de un soldado",
-      "Productora": "Sushi Chollo",
-      "Genero": "Documental",
-      "Duracion": "4:17"
-    },
-    {
-      "Titulo": "El encuentro final",
-      "Productora": "Cinevision Studio",
-      "Genero": "Ficción",
-      "Duracion": "1:31"
-    },
-    {
+     {
       "Titulo": "El Tren",
       "Productora": "Redgabi Films",
       "Genero": "Musical/Experimental",
       "Duracion": "2:15"
     },
-    {
-      "Titulo": "El último trazo",
-      "Productora": "Nadie TV",
-      "Genero": "Ficción",
-      "Duracion": "2:59"
-    },
-    {
-      "Titulo": "Hasta encontrarnos",
-      "Productora": "Cinevision Studio",
-      "Genero": "Ficción",
-      "Duracion": "8:21"
-    },
-    {
-      "Titulo": "La danza de la chancla",
-      "Productora": "Complot Studio",
-      "Genero": "Ficción",
-      "Duracion": "2:43"
-    },
-    {
-      "Titulo": "Letras de un alma en soledad",
-      "Productora": "Cine Mosaico Study",
-      "Genero": "Documental",
-      "Duracion": "4:06"
-    },
-    {
-      "Titulo": "Maullidos de esperanza",
-      "Productora": "Atajik Films Y Lampoos Production",
-      "Genero": "Documental",
-      "Duracion": "3:00"
-    },
-    {
-      "Titulo": "Muo Bananiao",
-      "Productora": "5G FILMS",
-      "Genero": "Ficción",
-      "Duracion": "5:10"
-    },
-    {
-      "Titulo": "Reseteo",
-      "Productora": "Dalet Films",
-      "Genero": "Ficción",
-      "Duracion": "5:17"
-    },
-    {
-      "Titulo": "Siguiente usuario",
-      "Productora": "Her Films",
-      "Genero": "Ficción",
-      "Duracion": "6:23"
-    },
-    {
+     {
       "Titulo": "Un día a la vez",
       "Productora": "Sisa Productions",
       "Genero": "Musical/Experimental",
       "Duracion": "4:42"
-    },
-    {
-      "Titulo": "Visible, vulnerable, viva",
-      "Productora": "Mephi Production",
-      "Genero": "Ficción",
-      "Duracion": "4:08"
-    },
-    {
-      "Titulo": "Witchcraft",
-      "Productora": "CH Productions",
-      "Genero": "Ficción",
-      "Duracion": "6:45"
-    },
-    {
-      "Titulo": "Yaracuy al pilón",
-      "Productora": "Pipirisnais Production",
-      "Genero": "Documental",
-      "Duracion": "5:05"
-    },
-    {
-      "Titulo": "Yaritagua nuestra",
-      "Productora": "5G Films",
-      "Genero": "Documental",
-      "Duracion": "3:03"
-    }
-
-  ],
-  "CEHOTUR": [
-
-    {
-      "Titulo": "Batman. una hermosa mentira",
-      "Productora": "Sushi Criollo",
-      "Genero": "Ficción",
-      "Duracion": "3:53"
-    },
-    {
-      "Titulo": "El alma en un violín",
-      "Productora": "Chivo En Lancha Films",
-      "Genero": "Documental",
-      "Duracion": "3:19"
-    },
-    {
-      "Titulo": "El encuentro final",
-      "Productora": "Cinevision Studio",
-      "Genero": "Ficción",
-      "Duracion": "1:31"
-    },
-    {
-      "Titulo": "El Misterio Del Vecino",
-      "Productora": "Nova Producions",
-      "Genero": "Ficción",
-      "Duracion": "6:00"
-    },
-    {
-      "Titulo": "El precio de la luz",
-      "Productora": "Chiwi Producciones",
-      "Genero": "Ficción",
-      "Duracion": "7:34"
-    },
-    {
-      "Titulo": "El último trazo",
-      "Productora": "Nadie TV",
-      "Genero": "Ficción",
-      "Duracion": "2:59"
-    },
-    {
-      "Titulo": "Eres un sol",
-      "Productora": "Juan Carlos TV",
-      "Genero": "Ficción",
-      "Duracion": "1:40"
-    },
-    {
-      "Titulo": "Instinto",
-      "Productora": "Complot Studio",
-      "Genero": "Ficción",
-      "Duracion": "3:53"
-    },
-    {
-      "Titulo": "La danza de la chancla",
-      "Productora": "Complot Studio",
-      "Genero": "Ficción",
-      "Duracion": "2:43"
-    },
-    {
-      "Titulo": "La despedida",
-      "Productora": "Gauche Studio",
-      "Genero": "Ficción",
-      "Duracion": "3:57"
-    },
-    {
-      "Titulo": "Letras de un alma en soledad",
-      "Productora": "Cine Mosaico Study",
-      "Genero": "Documental",
-      "Duracion": "4:06"
-    },
-    {
-      "Titulo": "Llamada inesperada",
-      "Productora": "Trilby Productions",
-      "Genero": "Ficción",
-      "Duracion": "1:29"
-    },
-    {
-      "Titulo": "Mas allá de la díálisis",
-      "Productora": "Que Mas Films, Cinesoscuro",
-      "Genero": "Documental",
-      "Duracion": "6:34"
-    },
-    {
-      "Titulo": "San Juan de Veroes",
-      "Productora": "Nany Films",
-      "Genero": "Documental",
-      "Duracion": "2:47"
-    },
-    {
-      "Titulo": "The roomie",
-      "Productora": "The Four P",
-      "Genero": "Ficción",
-      "Duracion": "4:21"
-    },
-    {
-      "Titulo": "Un día a la vez",
-      "Productora": "Sisa Productions",
-      "Genero": "Musical/Experimental",
-      "Duracion": "4:42"
-    },
-    {
-      "Titulo": "Valores de convivencia",
-      "Productora": "Pabellón Films",
-      "Genero": "Documental",
-      "Duracion": "4:34"
-    },
-    {
-      "Titulo": "Visible, vulnerable, viva",
-      "Productora": "Mephi Production",
-      "Genero": "Ficción",
-      "Duracion": "4:08"
-    },
-    {
-      "Titulo": "Witchcraft",
-      "Productora": "CH Productions",
-      "Genero": "Ficción",
-      "Duracion": "6:45"
-    },
-    {
-      "Titulo": "Yaracuy al pilón",
-      "Productora": "Pipirisnais Production",
-      "Genero": "Documental",
-      "Duracion": "5:05"
-    },
-    {
-      "Titulo": "Yaritagua nuestra",
-      "Productora": "5G Films",
-      "Genero": "Documental",
-      "Duracion": "3:03"
     }
   ]
 }
+  
