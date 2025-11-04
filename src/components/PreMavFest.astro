@@ -29,11 +29,13 @@ const OFICIAL = data.OFICIAL;
             <div class="flex flex-col text-center lg:text-left mt-10">
                 
                 <div class="guama flex-col text-center pb-2 uppercase">                  
-                    <h2 class="text-mav-black text-xl font-black -tracking-wider mb-3"> La verdadera competencia comienza</h2>
+                    <h2 class="text-mav-black text-xl font-black -tracking-wider mb-3">
+                      De Camino a la Gala: Conoce a los Elegidos
+                    </h2>
                     <a 
                     href="/nominados"
                   rel="noopener noreferrer"
-                    class="text-mav-orange italic font-bold -tracking-wider transition ease-in duration-300 inline-block hover:scale-105">Ver nominados<a/>
+                    class="text-mav-orange italic font-bold -tracking-wider transition ease-in duration-300 inline-block hover:scale-105">Descubre los nominados aquí<a/>
                     
                 </div>
             </div>
@@ -42,7 +44,10 @@ const OFICIAL = data.OFICIAL;
 
         </div>
 
+        <div>
 
+        
+        <h3 class="text-md font-black text-mav-black text-center -tracking-wider mb-3">Selección Oficial del PreMavfest</h3>
         <aside class=" h-90 overflow-auto p-7">
     {OFICIAL.map((x) => (
       <article id="list-view" class=" w-full flex flex-col mb-2" >
@@ -58,6 +63,7 @@ const OFICIAL = data.OFICIAL;
       </article>
     ))}
         </aside>
+        </div>
 
     </div>
 </section>
