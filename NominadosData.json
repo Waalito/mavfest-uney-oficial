@@ -1,0 +1,293 @@
+{
+  "NOMINADOS": [
+    {
+      "Categoria": "SFX (Efectos de Sonido)",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Culpa",
+          "Productora": "Rodrigo Balza - Ymir Ramos"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        },
+        {
+          "Titulo": "Batman. Una hermosa mentira",
+      "Productora": "Sushi Criollo"
+        }
+      ]
+    },
+    {
+      "Categoria": "VFX (Efectos Visuales)",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Maullidos de esperanza",
+      "Productora": "Atajik Films Y Lampoos Production"
+        },
+        {
+         "Titulo": "Siguiente usuario",
+      "Productora": "Her Films"
+        },
+        {
+          "Titulo": "Valores de convivencia",
+      "Productora": "Pabellon Films"
+        }
+      ]
+    },
+    {
+      "Categoria": "Dirección de arte",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Consejero espiritual",
+      "Productora": "Aquelarre producciones"
+        },
+        {
+          "Titulo": "Batman. Una hermosa mentira",
+      "Productora": "Sushi Criollo"
+        },
+        {
+          "Titulo": "Witchcraft",
+      "Productora": "CH Productions"
+        }
+      ]
+    },
+    {
+      "Categoria": "Fotografía e iluminación",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Siguiente usuario",
+      "Productora": "Her Films"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        },
+        {
+          "Titulo": "Witchcraft",
+      "Productora": "CH Productions"
+        }
+      ]
+    },
+    {
+      "Categoria": "Edición",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "The roomie",
+      "Productora": "The Four P"
+        },
+        {
+          "Titulo": "Instinto",
+      "Productora": "Complot Studio"
+        },
+        {
+          "Titulo": "Culpa",
+      "Productora": "Rodrigo Balza - Ymir Ramos"
+        }
+      ]
+    },
+    {
+      "Categoria": "Musicalización",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "San Juan es Veroes",
+      "Productora": "Nany films"
+        },
+        {
+          "Titulo": "Instinto",
+      "Productora": "Complot Studio"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        }
+      ]
+    },
+    {
+      "Categoria": "Guion",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "La danza de la chancla",
+      "Productora": "Complot Studio"
+        },
+        {
+          "Titulo": "Alguien normal",
+      "Productora": "Redgabi Films"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        }
+      ]
+    },
+    {
+      "Categoria": "Dirección",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        },
+        {
+          "Titulo": "Siguiente usuario",
+      "Productora": "Her Films"
+        },
+        {
+          "Titulo": "El Misterio Del Vecino",
+      "Productora": "Nova Producions"
+        }
+      ]
+    },
+    {
+      "Categoria": "Actuación o Personaje",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Reseteo",
+      "Productora": "Dalet Films"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        },
+        {
+          "Titulo": "Witchcraft",
+      "Productora": "CH Productions"
+        }
+      ]
+    },
+    {
+      "Categoria": "Cartel",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        },
+        {
+          "Titulo": "Witchcraft",
+      "Productora": "CH Productions"
+        },
+        {
+          "Titulo": "Reseteo",
+      "Productora": "Dalet Films"
+        }
+      ]
+    },
+    {
+      "Categoria": "Diseño Aplicado",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Visible, vulnerable, viva",
+      "Productora": "Mephi Production"
+        },
+        {
+          "Titulo": "El alma en un violín",
+      "Productora": "Chivo En Lancha Films"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        }
+      ]
+    },
+    {
+      "Categoria": "Animación",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Valores de convivencia",
+      "Productora": "Pabellon Films"
+        },
+        {
+          "Titulo": "Oro x cobre",
+      "Productora": "Huevito Productions"
+        },
+        {
+          "Titulo": "Batman. Una hermosa mentira",
+      "Productora": "Sushi Criollo"
+        }
+      ]
+    },
+    {
+      "Categoria": "Lenguaje audiovisual",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Siguiente usuario",
+      "Productora": "Her Films"
+        },
+        {
+          "Titulo": "Instinto",
+      "Productora": "Complot Studio"
+        },
+        {
+          "Titulo": "The roomie",
+      "Productora": "The Four P"
+        }
+      ]
+    },
+    {
+      "Categoria": "Impacto temático",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Mas allá de la díálisis",
+      "Productora": "que Más Films, Cinesoscuro"
+        },
+        {
+          "Titulo": "San Juan es Veroes",
+      "Productora": "Nany films"
+        },
+        {
+          "Titulo": "Diario de un soldado",
+      "Productora": "Sushi Criollo"
+        }
+      ]
+    },
+    {
+      "Categoria": "Micrometraje",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Hundur",
+      "Productora": "Ruperto Studio's"
+        },
+        {
+          "Titulo": "La boda",
+      "Productora": "Makako's Productions"
+        },
+        {
+          "Titulo": "Tarot",
+      "Productora": "CH Productions"
+        }
+      ]
+    },
+    {
+      "Categoria": "Cortometraje documental",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "San Juan es Veroes",
+      "Productora": "Nany films"
+        },
+        {
+          "Titulo": "El alma en un violín",
+      "Productora": "Chivo En Lancha Films"
+        },
+        {
+          "Titulo": "Diario de un soldado",
+      "Productora": "Sushi Criollo"
+        }
+      ]
+    },
+    {
+      "Categoria": "Cortometraje de ficción",
+      "cortometrajes_nominados": [
+        {
+          "Titulo": "Siguiente usuario",
+      "Productora": "Her Films"
+        },
+        {
+          "Titulo": "Instinto",
+      "Productora": "Complot Studio"
+        },
+        {
+          "Titulo": "La despedida",
+      "Productora": "Gaucho Studio"
+        }
+      ]
+    }
+  ]
+}

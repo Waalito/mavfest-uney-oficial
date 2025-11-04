@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NovenaEdicion from '@/components/NovenaEdicion.astro'
+import SliderCategorias from '@/components/SliderCategorias.astro'
+import HeroNovenaEdicion from '@/components/HeroNovenaEdicion.astro'
+import Instituciones from '@/components/Instituciones.astro';
+import Agradecimiento from '@/components/Agradecimiento.astro';
+import Credits from '@/components/Credits.astro';
+
+
+// Supports weights 100-900
+import '@fontsource-variable/inter';
+import '@fontsource/the-nautigal';
+import "@/styles/global.css";
+
+
+const { title } = Astro.props;
+---
+
+<Layout title="Nominados | MavFest 2025">
+
+    <HeroNovenaEdicion/> 
+    <SliderCategorias/>
+    <NovenaEdicion/> 
+    <Instituciones/>
+    <Agradecimiento/>
+    <Credits/>
+
+
+</Layout>
