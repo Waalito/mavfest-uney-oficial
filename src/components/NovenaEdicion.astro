@@ -11,7 +11,7 @@ const NOMINADOS = data.NOMINADOS;
       <div class=" lg:w-1/2 flex flex-col text-center lg:text-left gap-4">
 
         <h6 class="text-md font-medium text-mav-orange  -tracking-wider uppercase"> Sala Cine - Yaracuy  <br> San Felipe </h6>
-            <h2 class=" lg:w-32 lg:text-left text-center text-5xl font-black text-mav-orange -tracking-wider uppercase ">Los nominados de la noche</h2>
+            <h2 class=" lg:w-32 lg:text-left text-center md:text-5xl text-4xl w-80 font-black text-mav-orange -tracking-wider uppercase ">Los nominados de la noche</h2>
 
             <div class="flex flex-col text-center lg:text-left mt-10">
                 
@@ -24,7 +24,7 @@ const NOMINADOS = data.NOMINADOS;
         </div>
 
 
- <aside class=" w-xl md:w-4xl xl:w-5xl  flex flex-row overflow-x-scroll p-10 gap-4">
+ <aside class=" w-sm md:w-4xl xl:w-5xl  flex flex-row overflow-x-scroll p-10 gap-4">
   {NOMINADOS.map((categoriaItem) => (
     <article id="list-view" class=" group flex flex-col mb-2 mr-6 min-w-[300px] border-2 border-mav-black shadow-xl rounded-2xl p-10 relative overflow-hidden cursor-pointer transition ease-in hover:-translate-y-4 ">
       <header class="w-full h-30 flex flex-row justify-center items-center mb-2 ">
