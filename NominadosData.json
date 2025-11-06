@@ -1,7 +1,8 @@
 {
   "NOMINADOS": [
     {
-      "Categoria": "SFX (Efectos de Sonido)",
+      "Categoria": "Mejor Efectos Sonoros (SFX)",
+      "Icono_clave": "SFXIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Culpa",
@@ -18,7 +19,8 @@
       ]
     },
     {
-      "Categoria": "VFX (Efectos Visuales)",
+      "Categoria": "Mejor Efectos Visuales (VFX)",
+      "Icono_clave": "VFXIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Maullidos de esperanza",
@@ -36,6 +38,7 @@
     },
     {
       "Categoria": "Dirección de arte",
+      "Icono_clave": "ArtIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Consejero espiritual",
@@ -53,6 +56,7 @@
     },
     {
       "Categoria": "Fotografía e iluminación",
+      "Icono_clave": "FotoIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Siguiente usuario",
@@ -70,6 +74,7 @@
     },
     {
       "Categoria": "Edición",
+      "Icono_clave": "EdicIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "The roomie",
@@ -87,6 +92,7 @@
     },
     {
       "Categoria": "Musicalización",
+      "Icono_clave": "MusicaIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "San Juan es Veroes",
@@ -104,6 +110,7 @@
     },
     {
       "Categoria": "Guion",
+      "Icono_clave": "GuionIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "La danza de la chancla",
@@ -121,6 +128,7 @@
     },
     {
       "Categoria": "Dirección",
+      "Icono_clave": "DireccionIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "La despedida",
@@ -138,6 +146,7 @@
     },
     {
       "Categoria": "Actuación o Personaje",
+      "Icono_clave": "PersonajeIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Reseteo",
@@ -155,6 +164,7 @@
     },
     {
       "Categoria": "Cartel",
+      "Icono_clave": "CartelIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "La despedida",
@@ -172,6 +182,7 @@
     },
     {
       "Categoria": "Diseño Aplicado",
+      "Icono_clave": "AplicadoIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Visible, vulnerable, viva",
@@ -189,6 +200,7 @@
     },
     {
       "Categoria": "Animación",
+      "Icono_clave": "AnimacionIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Valores de convivencia",
@@ -206,6 +218,7 @@
     },
     {
       "Categoria": "Lenguaje audiovisual",
+      "Icono_clave": "LenguajeIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Siguiente usuario",
@@ -223,6 +236,7 @@
     },
     {
       "Categoria": "Impacto temático",
+      "Icono_clave": "TematicoIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Mas allá de la díálisis",
@@ -240,6 +254,7 @@
     },
     {
       "Categoria": "Micrometraje",
+      "Icono_clave": "MicroIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Hundur",
@@ -257,6 +272,7 @@
     },
     {
       "Categoria": "Cortometraje documental",
+      "Icono_clave": "DocuIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "San Juan es Veroes",
@@ -274,6 +290,7 @@
     },
     {
       "Categoria": "Cortometraje de ficción",
+      "Icono_clave": "FicIcon",
       "cortometrajes_nominados": [
         {
           "Titulo": "Siguiente usuario",

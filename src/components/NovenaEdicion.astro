@@ -1,31 +1,83 @@
 ---
-import data from 'NominadosData.json';
+import data from "NominadosData.json";
 const NOMINADOS = data.NOMINADOS;
+
+// Importa tus componentes/archivos SVG
+import SFXIcon from "@/icons/Premios/SFX.svg";
+import VFXIcon from "@/icons/Premios/VFX.svg";
+import ArtIcon from "@/icons/Premios/DirArte.svg";
+import FotoIcon from "@/icons/Premios/Fotografia.svg";
+import EdicIcon from "@/icons/Premios/Montaje.svg";
+import MusicaIcon from "@/icons/Premios/Musicalizacion.svg";
+import GuionIcon from "@/icons/Premios/Guion.svg";
+import DireccionIcon from "@/icons/Premios/Direccion.svg";
+import PersonajeIcon from "@/icons/Premios/PerFavorito.svg";
+import CartelIcon from "@/icons/Premios/Cartel.svg";
+import AplicadoIcon from "@/icons/Premios/DisAplicado.svg";
+import AnimacionIcon from "@/icons/Premios/Animacion.svg";
+import LenguajeIcon from "@/icons/Premios/LenAudiovisual.svg";
+import TematicoIcon from "@/icons/Premios/ImpactoTematico.svg";
+import MicroIcon from "@/icons/Premios/Micrometraje.svg";
+import DocuIcon from "@/icons/Premios/MejorDocumental.svg";
+import FicIcon from "@/icons/Premios/MejorFiccion.svg";
+
+// Crea un objeto de mapeo
+const ICONSMAP = {
+  SFXIcon: SFXIcon,
+  VFXIcon: VFXIcon,
+  ArtIcon: ArtIcon,
+  FotoIcon: FotoIcon,
+  EdicIcon: EdicIcon,
+  MusicaIcon: MusicaIcon,
+  GuionIcon: GuionIcon,
+  DireccionIcon: DireccionIcon,
+  PersonajeIcon: PersonajeIcon,
+  CartelIcon: CartelIcon,
+  AplicadoIcon: AplicadoIcon,
+  AnimacionIcon: AnimacionIcon,
+  LenguajeIcon: LenguajeIcon,
+  TematicoIcon: TematicoIcon,
+  MicroIcon: MicroIcon,
+  DocuIcon: DocuIcon,
+  FicIcon: FicIcon,
+};
+// SOLUCIÓN: Usar un tipo de función genérico. Esto resuelve el error 'any'.
+const TYPED_ICONSMAP: Record<string, Function> = ICONSMAP as Record<string, Function>;
+
 ---
 
-<section class="nominados-lista w-full flex flex-col justify-between items-center p-7">
-
+<section
+  class="nominados-lista w-full flex flex-col justify-between items-center p-7"
+>
   <div class="p-4">
-    <div class=" w-full flex flex-col lg:flex-row justify-center items-center ">
-      
-      <div class=" lg:w-1/2 flex flex-col text-center lg:text-left gap-4">
+    <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+      <div class="lg:w-1/2 flex flex-col text-center lg:text-left gap-4">
+        <h6
+          class="text-md font-medium text-mav-orange -tracking-wider uppercase"
+        >
+          Sala Cine - Yaracuy <br /> San Felipe
+        </h6>
+        <h2
+          class="lg:w-32 lg:text-left text-center md:text-5xl text-4xl w-80 font-black text-mav-orange -tracking-wider uppercase"
+        >
+          Los nominados de la noche
+        </h2>
 
-        <h6 class="text-md font-medium text-mav-orange  -tracking-wider uppercase"> Sala Cine - Yaracuy  <br> San Felipe </h6>
-            <h2 class=" lg:w-32 lg:text-left text-center md:text-5xl text-4xl w-80 font-black text-mav-orange -tracking-wider uppercase ">Los nominados de la noche</h2>
-
-            <div class="flex flex-col text-center lg:text-left mt-10">
-                
-                <div class="guama flex-col text-center lg:text-left pb-2 uppercase text-mav-orange ">
-                    
-                    <h2 class="text-mav-medium text-xl -tracking-wider"> <span class="font-black">07</span> Nov Viernes 
-                    </h2>
-                </div>
-            </div>
+        <div class="flex flex-col text-center lg:text-left mt-10">
+          <div
+            class="guama flex-col text-center lg:text-left pb-2 uppercase text-mav-orange"
+          >
+            <h2 class="text-mav-medium text-xl -tracking-wider">
+              <span class="font-black">07</span> Nov Viernes
+            </h2>
+          </div>
         </div>
+      </div>
 
-
- <aside class=" w-sm md:w-4xl xl:w-5xl  flex flex-row overflow-x-scroll p-10 gap-4">
-  {NOMINADOS.map((categoriaItem) => (
+      <!--<aside class=" w-sm md:w-4xl xl:w-5xl  flex flex-row overflow-x-scroll p-10 gap-4">
+  {NOMINADOS.map((categoriaItem) => 
+  
+  (
     <article id="list-view" class=" group flex flex-col mb-2 mr-6 min-w-[300px] border-2 border-mav-black shadow-xl rounded-2xl p-10 relative overflow-hidden cursor-pointer transition ease-in hover:-translate-y-4 ">
       <header class="w-full h-30 flex flex-row justify-center items-center mb-2 ">
       <h2 class="text-3xl font-black uppercase text-center -tracking-wider text-mav-orange">{categoriaItem.Categoria}</h2>
@@ -44,89 +96,138 @@ const NOMINADOS = data.NOMINADOS;
       </ul>
     </article>
   ))}
-  </aside>
+  </aside> -->
+
+      <aside
+        class="w-sm md:w-4xl xl:w-5xl flex flex-row overflow-x-scroll p-10 gap-4"
+      >
+        {
+          NOMINADOS.map((categoriaItem) => {
+            // Lógica de búsqueda segura y tipada
+            // Asumimos que 'Icono_clave' en el JSON es la propiedad correcta (ej. "SFXIcon")
+            const IconComponent = TYPED_ICONSMAP[categoriaItem.Icono_clave];
+
+            return (
+              // CLAVE: El artículo es el 'group' de Tailwind
+              <article
+                id="list-view"
+                class="group flex flex-col mb-2 mr-6 min-w-[300px] border-2 border-mav-black shadow-xl rounded-2xl p-10 relative overflow-hidden cursor-pointer 
+                   transition ease-in hover:-translate-y-4 hover:shadow-xl">
+                <header class="w-full h-30 flex flex-row justify-center items-center mb-2 ">
+                  <h2
+                    class="text-3xl font-black uppercase text-center -tracking-wider text-mav-orange 
+                           group-hover:text-white transition duration-300">
+                    {categoriaItem.Categoria}
+                  </h2>
+                </header>
+
+                {IconComponent && (
+                  <div class=" -z-10 flex items-center absolute -bottom-5 -right-15 
+            !text-mav-gray/15 group-hover:!text-gray transition ease-in duration-300">
+                    {/* APLICACIÓN DE HOVER: Icono de color ROJO/AZUL por defecto, cambia a BLANCO en hover */}
+                    <IconComponent class="!w-70 !h-70 !fill-mav-gray/15 group-hover:fill-mav-gray transition duration-300 block max-w-none max-h-none" />
+                  </div>
+                )}
+
+                <h2 
+                class="text-2xl font-bold text-center -tracking-wider text-mav-orange mb-6">
+                  Nominados
+                </h2>
+                <ul class="nominados-lista-items">
+                  {categoriaItem.cortometrajes_nominados.map((nominado) => (
+                    <li class="nominado-item mb-6 text-mav-main">
+                      <h3 class=" text-xl font-bold">{nominado.Titulo}</h3>
+                      <span class="text-sm italic">{nominado.Productora}</span>
+                    </li>
+                  ))}
+                </ul>
+
+              </article>
+            );
+          })
+        }
+      </aside>
+    </div>
   </div>
+
+  <style>
+    aside {
+      scrollbar-width: thin;
+      scrollbar-color: var(--color-mav-orange) transparent; /* Color del thumb (naranja) y del track (gris claro) */
+      -webkit-scrollbar-thumb {
+        background-color: transparent; /* Color del thumb (naranja) */
+      }
+      mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 50px,
+        black calc(100% - 50px),
+        transparent
+      );
+    }
+    aside::-webkit-scrollbar-button {
+      display: none; /* Esto oculta las flechas */
+    }
+
+    article {
+      min-width: 400px;
+      height: 400px;
+    }
+
+    article::before {
+      content: "";
+      position: absolute;
+      background-color: var(--color-mav-black);
+      right: 0;
+      bottom: 0;
+      width: 5px;
+      height: 100%;
+      z-index: -9;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    article:hover::before {
+      width: 100%;
+      z-index: -11;
+    }
+
+    article ul li {
+      opacity: 0;
+    }
+
+    article:hover ul li {
+      opacity: 1;
+    }
+
+    @keyframes animate-in-and-out {
+      /* --- ANIMACIÓN DE ENTRADA (ENTRY) --- */
+      /* El elemento entra en el viewport */
+      entry 0% {
+        opacity: 0;
+        /* Entra desde el lado derecho del contenedor */
+        transform: translateX(100%);
+      }
+      entry 100% {
+        opacity: 1;
+        transform: translateX(0); /* Termina en su posición normal */
+      }
+
+      /* --- ANIMACIÓN DE SALIDA (EXIT) --- */
+      /* El elemento sale del viewport */
+      exit 0% {
+        opacity: 1;
+        transform: translateX(0); /* Comienza en su posición normal */
+      }
+      exit 100% {
+        opacity: 0;
+        /* Sale hacia el lado izquierdo del contenedor */
+        transform: translateX(-100%);
+      }
+    }
+
+    #list-view {
+      animation: linear animate-in-and-out;
+      animation-timeline: view();
+    }
+  </style>
 </section>
-
-<style> 
-
-  aside {
-    
-    
-    scrollbar-width: thin;
-    scrollbar-color: var(--color-mav-orange) transparent; /* Color del thumb (naranja) y del track (gris claro) */
-    -webkit-scrollbar-thumb {
-      background-color: transparent; /* Color del thumb (naranja) */
-    };
-    mask-image: linear-gradient(
-    to right, 
-    transparent,
-    black 60px,    
-    black calc(100% - 60px), 
-    transparent
-  );
-  }
-  aside::-webkit-scrollbar-button {
-  display: none; /* Esto oculta las flechas */
-}
-
-  article {
-    min-width: 400px;
-    height: 400px;
-  }
-
-  article::before {
-    content: '';
-    position: absolute;
-  background-color: var(--color-mav-black);
-  right: 0;
-  bottom: 0;
-  width: 5px;
-  height: 100%;
-  z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-
-article:hover::before {
-  width: 100%;
-}
-
-article ul li {
-  opacity: 0;
-}
-
-article:hover ul li {
-  opacity: 1;
-}
-
-  @keyframes animate-in-and-out {
-  /* --- ANIMACIÓN DE ENTRADA (ENTRY) --- */
-  /* El elemento entra en el viewport */
-  entry 0% {
-    opacity: 0; 
-    /* Entra desde el lado derecho del contenedor */
-    transform: translateX(100%); 
-  }
-  entry 100% {
-    opacity: 1; 
-    transform: translateX(0); /* Termina en su posición normal */
-  }
-
-  /* --- ANIMACIÓN DE SALIDA (EXIT) --- */
-  /* El elemento sale del viewport */
-  exit 0% {
-    opacity: 1; 
-    transform: translateX(0); /* Comienza en su posición normal */
-  }
-  exit 100% {
-    opacity: 0; 
-    /* Sale hacia el lado izquierdo del contenedor */
-    transform: translateX(-100%); 
-  }
-}
-
-#list-view {
-  animation: linear animate-in-and-out;
-  animation-timeline: view();
-}
-</style>
