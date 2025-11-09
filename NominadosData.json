@@ -9,10 +9,6 @@
           "Productora": "Rodrigo Balza - Ymir Ramos"
         },
         {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
-        },
-        {
           "Titulo": "Batman. Una hermosa mentira",
       "Productora": "Sushi Criollo"
         }
@@ -63,10 +59,6 @@
       "Productora": "Her Films"
         },
         {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
-        },
-        {
           "Titulo": "Witchcraft",
       "Productora": "CH Productions"
         }
@@ -101,10 +93,6 @@
         {
           "Titulo": "Instinto",
       "Productora": "Complot Studio"
-        },
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
         }
       ]
     },
@@ -119,10 +107,6 @@
         {
           "Titulo": "Alguien normal",
       "Productora": "Redgabi Films"
-        },
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
         }
       ]
     },
@@ -130,10 +114,6 @@
       "Categoria": "Dirección",
       "Icono_clave": "DireccionIcon",
       "cortometrajes_nominados": [
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
-        },
         {
           "Titulo": "Siguiente usuario",
       "Productora": "Her Films"
@@ -153,10 +133,6 @@
       "Productora": "Dalet Films"
         },
         {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
-        },
-        {
           "Titulo": "Witchcraft",
       "Productora": "CH Productions"
         }
@@ -166,10 +142,6 @@
       "Categoria": "Cartel",
       "Icono_clave": "CartelIcon",
       "cortometrajes_nominados": [
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
-        },
         {
           "Titulo": "Witchcraft",
       "Productora": "CH Productions"
@@ -191,10 +163,6 @@
         {
           "Titulo": "El alma en un violín",
       "Productora": "Chivo En Lancha Films"
-        },
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
         }
       ]
     },
@@ -299,10 +267,6 @@
         {
           "Titulo": "Instinto",
       "Productora": "Complot Studio"
-        },
-        {
-          "Titulo": "La despedida",
-      "Productora": "Gaucho Studio"
         }
       ]
     }
