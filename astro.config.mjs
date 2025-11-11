@@ -16,8 +16,5 @@ export default defineConfig({
     //}
   },
   site: 'https://mavfest-uney.netlify.app',
-  integrations: [sitemap({
-    filter: (page) => 
-      page !== "https://mavfest-uney.netlify.app/nominados/",
-  })],
+  integrations: [sitemap()],
 });
