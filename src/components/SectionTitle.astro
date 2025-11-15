@@ -1,0 +1,14 @@
+---
+interface Props {
+  class?: string
+  title: string
+}
+
+const { class: className, title } = Astro.props
+---
+
+<h2 class:list={[`text-mav-orange mb-2 text-center text-4xl font-light`, className]}>
+  <div class="block sm:inline">
+    <strong class="font-black uppcase -tracking-wider">{title}</strong>
+  </div>
+</h2>

@@ -1,0 +1,89 @@
+---
+import SectionTitle from '@/components/SectionTitle.astro'
+import LiteYouTube from '@/components/LiteYoutube.astro'
+import Youtube from '@/assets/svg/youtube.svg';
+
+const MICROMETRAJE_ID = 'bXxg3xrmo0Q'
+const PUBLICO_ID = '89ZV8_q80R0'
+const ACTUACION_ID = 'KdUjohq7J1Y'
+const FICCION_ID = 'TNmDFhyXHMg'
+const DOCUMENTAL_ID = 'J2Yech9RifI'
+---
+
+<section class="max-w-4xl px-5 py-20 md:mx-auto">
+  <SectionTitle class="pb-8" title="MEJOR DOCUMENTAL" />
+
+  <LiteYouTube
+    videoId={DOCUMENTAL_ID}
+    title="Mejor documental - Mavfest 2025"
+    backgroundImage="/images/thumbnail/mejor-corto-documental.webp"
+    withShadowImage={true}
+  />
+</section>
+
+<section class="max-w-4xl px-5 py-36 md:mx-auto">
+  <SectionTitle class="pb-8" title="MEJOR FICCIÓN" />
+
+  <LiteYouTube
+    videoId={FICCION_ID}
+    title="Mejor documental ficción - Mavfest 2025"
+    backgroundImage="/images/thumbnail/mejor-corto-ficcion.webp"
+    withShadowImage={true}
+  />
+</section>
+
+<section class="max-w-4xl px-5 py-36 md:mx-auto">
+  <SectionTitle class="pb-8" title="CORTOMETRAJE DEL PUBLICO" />
+
+  <LiteYouTube
+    videoId={PUBLICO_ID}
+    title="Mejor cortometraje del publico - Mavfest 2025"
+    backgroundImage="/images/thumbnail/mejor-corto-publico.webp"
+    withShadowImage={true}
+  />
+</section>
+
+<section class="max-w-4xl px-5 py-36 md:mx-auto">
+  <SectionTitle class="pb-8" title="MEJOR PERSONAJE Y ACTUACIÓN" />
+
+  <LiteYouTube
+    videoId={ACTUACION_ID}
+    title="Mejor actuación y personaje - Mavfest 2025"
+    backgroundImage="/images/thumbnail/mejor-actuacion-personaje.webp"
+    withShadowImage={true}
+  />
+</section>
+
+<section class="max-w-4xl px-5 py-36 md:mx-auto">
+  <SectionTitle class="pb-8" title=" MEJOR MICROMETRAJE" />
+
+  <LiteYouTube
+    videoId={MICROMETRAJE_ID}
+    title="Mejor micrometraje - Mavfest 2025"
+    backgroundImage="/images/thumbnail/mejor-micrometraje.webp"
+    withShadowImage={true}
+  />
+
+  <div class="sociales flex items-center justify-center gap-1 py-7">
+        <a href="https://www.youtube.com/watch?v=IEOyxUczSys&list=PLQFGbPLFHqucdFQYtl1peDRDbvk52SzB_&index=1" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class=" text-mav-gray flex flex-row justify-center items-center gap-2 text-xl font-bold  hover:text-mav-black transition-colors duration-300 ease-in-out ">
+            <Youtube /> Playlist Micrometrajes
+        </a>
+  </div>      
+</section>
+
+<section class="w-full p-10 flex justify-center items-center flex-col mt-10 mb-10">
+
+    <div class=" w-full flex flex-col items-center justify-center gap-2 mt-16 2xl:mt-0">
+        <h2 class= "text-2xl font-black text-mav-orange uppercase -tracking-wider text-center relative animate-blurred-fade-in animation-delay-150" >
+            El telón baja <span class=" ml-10 lg:ml-30">por un año más</span>
+        </h2>
+        <h2 class="text-xl md:text-2xl font-black text-mav-black uppercase -tracking-wider text-center relative animate-blurred-fade-in animation-delay-150">La resonancia de su presencia permanece.</h2>
+        <h2 class= " text-5xl md:text-7xl font-secundary font-bold text-mav-orange relative -top-4 md:-top-9 -skew-5 text-center">Reencontrarnos en 2026 </h2>
+        <h3 class=" px-5 w-xl text-lg font-black italic text-mav-black text-center leading-5 relative animate-blurred-fade-in animation-delay-150">Nos llevamos no solo el recuerdo de unas jornadas exitosas y de experiencias significativas... sino la certeza de que el diseño, el cine y el arte, en su expresión más humilde, nos encuentra, nos reune y nos <span class="text-mav-orange">transforma a todos.</span></h3>
+    </div>
+    
+
+</section>

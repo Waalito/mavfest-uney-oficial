@@ -1,11 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NovenaEdicion from '@/components/NovenaEdicion.astro'
-import SliderCategorias from '@/components/SliderCategorias.astro'
-import HeroNovenaEdicion from '@/components/HeroNovenaEdicion.astro'
-import Instituciones from '@/components/Instituciones.astro';
+import NovenaEdicion from '@/components/Edicion2025/NovenaEdicion.astro'
+import SliderCategorias from '@/components/Edicion2025/SliderCategorias.astro'
+import HeroNovenaEdicion from '@/components/Edicion2025/HeroNovenaEdicion.astro'
+import Instituciones from '@/components/Sections/Instituciones.astro';
 import Agradecimiento from '@/components/Agradecimiento.astro';
-import Credits from '@/components/Credits.astro';
+import Credits from '@/components/Sections/Credits.astro';
+import Ganadores from '@/components/Edicion2025/Ganadores.astro'
 
 
 // Supports weights 100-900
@@ -17,11 +18,12 @@ import "@/styles/global.css";
 const { title } = Astro.props;
 ---
 
-<Layout title="Nominados | MavFest 2025">
+<Layout title="Ganadores NOV9NA EDICIÓN| MavFest 2025">
 
     <HeroNovenaEdicion/> 
     <SliderCategorias/>
     <NovenaEdicion/> 
+    <Ganadores />
     <Instituciones/>
     <Agradecimiento/>
     <Credits/>
