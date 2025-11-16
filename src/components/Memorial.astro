@@ -1,0 +1,23 @@
+---
+import SectionTitle from '@/components/SectionTitle.astro'
+import LiteYouTube from '@/components/LiteYoutube.astro'
+
+const MEMORIAL_ID = 'FHF3zAN5qpc'
+---
+
+<section class="max-w-4xl px-5 py-20 md:mx-auto text-mav-gray">
+  <SectionTitle class="pb-8" title="" />
+
+  <div class=" w-full flex flex-col justify-center  items-center gap-3">
+    <h3 class="text-2xl text-mav-gray/40 uppercase font-black -tracking-wider">EN MEMORIA</h3>
+    <h4 class=" text-xl text-mav-gray uppercase font-bold italic -tracking-wider">Katiuska Pereza • Limayris H. Rivas </h4>
+    </div>
+  <LiteYouTube
+    videoId={MEMORIAL_ID}
+    title="En memoria de los que ya no están con nosotros - Mavfest 2025"
+    backgroundImage="/images/thumbnail/memorial.webp"
+    withShadowImage={true}
+  />
+  
+</section>
+

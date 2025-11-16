@@ -3,15 +3,33 @@ import LogoMavfest from '@/icons/LogoMavfest.astro';
 
 ---
 
-<header class="fixed top-0 left-0 w-full flex items-center justify-center py-2 z-999999">
+ <header class="fixed top-0 left-0 w-full flex items-center justify-around gap-4 py-2 z-999999">
     <a 
+    class="hover:text-mav-gray hover:scale-105 transition-transform duration-300 ease-in-out font-black uppercase -tracking-wider text-mav-gray/50 "
+    href="/ganadores2025" 
+    rel="noopener noreferrer"
+    >
+       Edición 2025
+    </a>
+ 
+  <a 
     class="hover:scale-105 transition-transform duration-300 ease-in-out text-mav-gray"
     href="/" 
     rel="noopener noreferrer"
     >
        <LogoMavfest />
     </a>
-</header>
+
+    <a 
+    class="hover:text-mav-gray hover:scale-105 transition duration-300 ease-in-out font-black uppercase -tracking-wider text-mav-gray/50"
+    href="/FAQs" 
+    rel="noopener noreferrer"
+    >
+       FAQ's
+    </a>
+
+ 
+</header> 
 
 <style>
     header {

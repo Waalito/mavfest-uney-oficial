@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Preguntas from '@/components/FAQs.astro';
+
+// Supports weights 100-900
+import '@fontsource-variable/inter';
+import '@fontsource/the-nautigal';
+import "@/styles/global.css";
+
+
+const { title } = Astro.props;
+---
+
+<Layout title="Preguntas Frecuentes - MavFest">
+    <Preguntas/>
+</Layout>
