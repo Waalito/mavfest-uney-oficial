@@ -3,15 +3,9 @@ import LogoMavfest from '@/icons/LogoMavfest.astro';
 
 ---
 
- <header class="fixed top-0 left-0 w-full flex items-center justify-around gap-4 py-2 z-999999">
-    <a 
-    class="hover:text-mav-gray hover:scale-105 transition-transform duration-300 ease-in-out font-black uppercase -tracking-wider text-mav-gray/50 "
-    href="/ganadores2025" 
-    rel="noopener noreferrer"
-    >
-       Edición 2025
-    </a>
- 
+ <header class="fixed top-0 left-0 w-full flex items-center justify-between gap-4 py-2 z-999999 px-6">
+
+  
   <a 
     class="hover:scale-105 transition-transform duration-300 ease-in-out text-mav-gray"
     href="/" 
@@ -20,6 +14,19 @@ import LogoMavfest from '@/icons/LogoMavfest.astro';
        <LogoMavfest />
     </a>
 
+
+    <div class=" flex flex-row justify-center items-center gap-2.5">
+
+ 
+    <a 
+    class="hover:text-mav-gray hover:scale-105 transition-transform duration-300 ease-in-out font-black uppercase -tracking-wider text-mav-gray/50 "
+    href="/ganadores2025" 
+    rel="noopener noreferrer"
+    >
+       Edición 2025
+    </a>
+ 
+
     <a 
     class="hover:text-mav-gray hover:scale-105 transition duration-300 ease-in-out font-black uppercase -tracking-wider text-mav-gray/50"
     href="/FAQs" 
@@ -27,6 +34,7 @@ import LogoMavfest from '@/icons/LogoMavfest.astro';
     >
        FAQ's
     </a>
+       </div>
 
  
 </header> 
